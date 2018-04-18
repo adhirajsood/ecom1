@@ -20,7 +20,7 @@ app.post('/register',function(request,response){
 
 		var returnObj = {
 				    		status: "1",
-				    		message: "Registered succesfully.",
+				    		message: "Registeration success.",
 				    		body: {
 				    			email: request.body.email,
 				    			phone: request.body.phone
